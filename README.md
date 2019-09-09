@@ -29,7 +29,7 @@ The Ocaml program makes generous use of the `List.fold_left` function to maintai
 
 The 'marked_lst' is the list of userId's that we've already check for friends. The 'depth' is the depth of the breadth-first search at a give point. It will become the chain length between friends. 'is_found' is true if we've found the match we're looking for. 
 
-We recurse from an initial UserA to the friends of UserA looking for UserB. The 'next_depth' function build the next level of recursion by finding all the User records for the Users at the current level, then finding their friends. It then removes any friends that are in the marked_lst. This prevents cycles.
+We recurse from an initial UserA to the friends of UserA looking for UserB. The 'next_depth' function builds the next level of recursion by evaluating all the User records for the Users at the current level - finding their friends. It then removes any of those friends that are in the marked_lst. This prevents cycles.
 
 Hopefully the rest of the code can be understood with its comments to see how this works. The test cases considered were:
 - no chain of friends between UserA and UserB (tested)
