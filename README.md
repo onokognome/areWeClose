@@ -41,6 +41,8 @@ Hopefully the rest of the code can be understood with its comments to see how th
 
 For a production solution, this should probably be multi-threaded and a DHT used. This solution could morph this way naturally. Also, the user.id type could be abstracted, a module/functor pair could be created to handle different environments.
 
+I should probably mention map/reduce. In a distributed envioronment, it's probably the right framework. And I suppose a lazy solution could build the entire friendship graph 'forcing' to find a UserB match at each depth, but haven't completely thought through it.
+
 Hope I didn't make mistakes!
 
 dsm
