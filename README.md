@@ -39,7 +39,7 @@ Hopefully the rest of the code can be understood with its comments to see how th
 - large networks of users (not tested)
 - bad friend graphs (somewhat coded but not tested. should be pretty protected against this. but probably return wrong results sometimes).
 
-For a production solution, this should probably be multi-threaded and a DHT used. This solution could morph this way naturally.
+For a production solution, this should probably be multi-threaded and a DHT used. This solution could morph this way naturally. Also, the user.id type could be abstracted, a module/functor pair could be created to handle different environments.
 
 Hope I didn't make mistakes!
 
