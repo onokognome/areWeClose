@@ -23,7 +23,7 @@ The solution to the problem is recursive. Here's the important points:
 
 Arguably, any doubts about the above points should be check/proven before coding so the debugging of algorithm errors and coding errors can be done separately. One lucky thing about functional programming is that the algorithm can be closely reflected in the program and it becomes more readily apparent which type of error one is likely encountering.
 
-The Ocaml program makes generous use of the List.fold_left function to maintain a state accumuator to drive the mutiple recursions that are needed to sove the problem. The state accumulator is:
+The Ocaml program makes generous use of the `List.fold_left` function to maintain a state accumuator to drive the mutiple recursions that are needed to sove the problem. The state accumulator is:
 
 `(marked_lst : int list; depth : int; is_found : bool)`
 
