@@ -1,6 +1,5 @@
 # areWeClose?
-Problem solution for Shoreline Software's Software Engineer (Languages) postion. The details can be found here:
-https://shorelinesoftware.com/software-engineer-language/
+Problem solution for probem from a potential employer. Essentaily the problem is finding the 'distance' between chains of friends in a social network.
 
 First of all, this is an algorithm problem and a coding problem. I usually have better success handling them as separate items rather than jumping in and coding - especially algorithms like this.
 At it's core, this is a graph search problem. It needs to be turned into a functional program - which is great because the recursive solution to the graph search algorithm should map nicely to the code.
